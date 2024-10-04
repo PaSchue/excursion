@@ -6,6 +6,7 @@ html {
 }
 
 header {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -14,4 +15,68 @@ header {
     font-size: 50px;
     font-weight: normal;
     margin-bottom: 40px;
+}
+
+.link {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.link a {
+    color: aquamarine;
+}
+
+.promo video {
+    margin-bottom: 35px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 21px;
+    color: grey;
+    margin-bottom: 25px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.description .container img {
+    width: 100%;
+    height: auto;
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+}
+
+.coming-soon .phone {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 10px;
 }
