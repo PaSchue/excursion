@@ -1,0 +1,17 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
